@@ -1,11 +1,10 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import './index.css'
-import { PokemonPage } from './examples/PokemonPage'
-
+import { TasksApp } from '@/useReducer/TaskApp'
 
 createRoot(document.getElementById('root')!).render(
    <StrictMode>
-      <PokemonPage />
+      <TasksApp />
    </StrictMode>,
 )

@@ -10,7 +10,7 @@ export const PokemonPage = () => {
 
    if (isLoading) {
       return (
-         <div className="bg-gradient-flex items-center">
+         <div className="bg-gradient flex items-center">
             <h1 className="text-2xl text-white">Pokemon</h1>
             <h3 className="text-xl font-bold text-white">Cargando ...</h3>
          </div>
@@ -19,7 +19,7 @@ export const PokemonPage = () => {
 
    if (!pokemon) {
       return (
-         <div className="bg-gradient-flex items-center">
+         <div className="bg-gradient flex items-center">
             <h1 className="text-2xl text-white">Pokemon</h1>
             <h3 className="text-xl font-bold text-white"> No encontrado</h3>
          </div>
